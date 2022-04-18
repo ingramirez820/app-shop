@@ -12,17 +12,17 @@
                         {{ csrf_field() }}
                         <div class="header header-primary text-center">
                             <h4>Inicio de Sesión</h4>
-                            <div class="social-line">
-                                <a href="#pablo" class="btn btn-simple btn-just-icon">
+                            {{-- <div class="social-line">
+                                <a href="#" class="btn btn-simple btn-just-icon">
                                     <i class="fa fa-facebook-square"></i>
                                 </a>
-                                <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                <a href="#" class="btn btn-simple btn-just-icon">
                                     <i class="fa fa-twitter"></i>
                                 </a>
-                                <a href="#pablo" class="btn btn-simple btn-just-icon">
+                                <a href="#" class="btn btn-simple btn-just-icon">
                                     <i class="fa fa-google-plus"></i>
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                         <p class="text-divider">Ingresa tus Datos</p>
                         <div class="content">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="footer text-center">
-                            <button href="#" type="submit" class="btn btn-simple btn-primary btn-lg">Ingresar</button>
+                            <button href="#pablo" type="submit" class="btn btn-simple btn-primary btn-lg">Ingresar</button>
                         </div>
                         {{-- <a class="btn btn-link" href="{{ route('password.request') }}">
                             Forgot Your Password?
@@ -96,7 +96,7 @@
                 </ul>
             </nav>
             <div class="copyright pull-right">
-                &copy; 2016, made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com" target="_blank">Creative Tim</a>
+                &copy; 2022, made with <i class="fa fa-heart heart"></i> by <a href="#" target="_blank">Hr Ingeniería</a>
             </div>
         </div>
     </footer>
